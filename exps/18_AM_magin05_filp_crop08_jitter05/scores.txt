@@ -1,0 +1,40 @@
+2022-11-13 01:31:29
+Namespace(batch_size=100, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.5, scale=30, nPerClass=1, nClasses=1230, initial_model='', save_path='exps/18_AM_magin05_filp_crop08_jitter05', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, TLOSS 21.92796
+IT 2, TLOSS 20.49496
+IT 3, TLOSS 19.53089
+IT 4, TLOSS 18.42289
+IT 5, Val EER 18.77684
+IT 5, TLOSS 17.26329
+IT 6, TLOSS 16.11983
+IT 7, TLOSS 15.22922
+IT 8, TLOSS 14.39994
+IT 9, TLOSS 13.64791
+IT 10, Val EER 13.06003
+IT 10, TLOSS 12.93474
+IT 11, TLOSS 12.17765
+IT 12, TLOSS 11.54186
+IT 13, TLOSS 10.94850
+IT 14, TLOSS 10.37917
+IT 15, Val EER 11.20052
+IT 15, TLOSS 9.79947
+IT 16, TLOSS 9.13518
+IT 17, TLOSS 8.61795
+IT 18, TLOSS 8.12066
+IT 19, TLOSS 7.64742
+IT 20, Val EER 11.78134
+IT 20, TLOSS 7.19125
+IT 21, TLOSS 6.63829
+IT 22, TLOSS 6.24544
+IT 23, TLOSS 5.89007
+IT 24, TLOSS 5.53991
+IT 25, Val EER 14.26707
+IT 25, TLOSS 5.24297
+IT 26, TLOSS 4.79278
+IT 27, TLOSS 4.50668
+IT 28, TLOSS 4.28093
+IT 29, TLOSS 4.04472
+IT 30, Val EER 14.81079
+IT 30, TLOSS 3.80701
+2022-11-13 03:43:58
+Namespace(batch_size=100, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.5, scale=10.0, nPerClass=1, nClasses=1230, initial_model='', save_path='exps/18_AM_magin05_filp_crop08_jitter05', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)

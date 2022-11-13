@@ -1,0 +1,128 @@
+2022-11-11 15:10:18
+Namespace(batch_size=100, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/ResNet34_AMsoftmax', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet34V2', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-11 15:12:02
+Namespace(batch_size=100, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/ResNet34_AMsoftmax', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-12 01:35:23
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/ResNet34_AMsoftmax', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-12 01:37:16
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/ResNet34_AMsoftmax', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, TLOSS 9.53013
+IT 2, TLOSS 8.10652
+IT 3, TLOSS 7.13572
+IT 4, TLOSS 6.08553
+IT 5, Val EER 16.50718
+IT 5, TLOSS 5.03355
+IT 6, TLOSS 4.14407
+IT 7, TLOSS 3.51000
+IT 8, TLOSS 3.01114
+IT 9, TLOSS 2.59690
+IT 10, Val EER 13.56163
+IT 10, TLOSS 2.26919
+IT 11, TLOSS 1.90863
+IT 12, TLOSS 1.69452
+IT 13, TLOSS 1.48816
+IT 14, TLOSS 1.32144
+IT 15, Val EER 11.40434
+IT 15, TLOSS 1.16572
+IT 16, TLOSS 0.96769
+IT 17, TLOSS 0.83974
+IT 18, TLOSS 0.74488
+IT 19, TLOSS 0.66682
+IT 20, Val EER 10.48277
+IT 20, TLOSS 0.59476
+IT 21, TLOSS 0.46188
+IT 22, TLOSS 0.40108
+IT 23, TLOSS 0.36538
+IT 24, TLOSS 0.32075
+IT 25, Val EER 10.72364
+IT 25, TLOSS 0.28824
+IT 26, TLOSS 0.21859
+IT 27, TLOSS 0.19105
+IT 28, TLOSS 0.17394
+IT 29, TLOSS 0.16825
+IT 30, Val EER 11.11353
+IT 30, TLOSS 0.15712
+IT 31, TLOSS 0.11644
+IT 32, TLOSS 0.10194
+IT 33, TLOSS 0.09753
+IT 34, TLOSS 0.11058
+IT 35, Val EER 11.57189
+IT 35, TLOSS 0.10635
+IT 36, TLOSS 0.07269
+IT 37, TLOSS 0.06085
+IT 38, TLOSS 0.06767
+IT 39, TLOSS 0.07002
+IT 40, Val EER 11.33103
+IT 40, TLOSS 0.08287
+IT 41, TLOSS 0.05547
+IT 42, TLOSS 0.04024
+IT 43, TLOSS 0.04301
+IT 44, TLOSS 0.05703
+IT 45, Val EER 12.24212
+IT 45, TLOSS 0.06585
+IT 46, TLOSS 0.04144
+IT 47, TLOSS 0.02938
+IT 48, TLOSS 0.02850
+IT 49, TLOSS 0.04472
+IT 50, Val EER 12.60865
+IT 50, TLOSS 0.05347
+IT 51, TLOSS 0.03355
+IT 52, TLOSS 0.02365
+IT 53, TLOSS 0.02932
+IT 54, TLOSS 0.02918
+IT 55, Val EER 12.42015
+IT 55, TLOSS 0.03185
+IT 56, TLOSS 0.02877
+IT 57, TLOSS 0.02064
+IT 58, TLOSS 0.02122
+IT 59, TLOSS 0.03448
+IT 60, Val EER 12.62959
+IT 60, TLOSS 0.02772
+IT 61, TLOSS 0.02132
+IT 62, TLOSS 0.01836
+IT 63, TLOSS 0.01766
+IT 64, TLOSS 0.01665
+IT 65, Val EER 13.19510
+IT 65, TLOSS 0.02220
+IT 66, TLOSS 0.01910
+IT 67, TLOSS 0.01659
+IT 68, TLOSS 0.02008
+IT 69, TLOSS 0.01708
+IT 70, Val EER 12.51440
+IT 70, TLOSS 0.01749
+IT 71, TLOSS 0.01490
+IT 72, TLOSS 0.01449
+IT 73, TLOSS 0.01321
+IT 74, TLOSS 0.01764
+IT 75, Val EER 11.99435
+IT 75, TLOSS 0.01617
+IT 76, TLOSS 0.01374
+IT 77, TLOSS 0.01145
+IT 78, TLOSS 0.01359
+IT 79, TLOSS 0.01267
+IT 80, Val EER 11.69756
+IT 80, TLOSS 0.01097
+IT 81, TLOSS 0.01069
+IT 82, TLOSS 0.01308
+IT 83, TLOSS 0.01457
+IT 84, TLOSS 0.01049
+IT 85, Val EER 12.40968
+IT 85, TLOSS 0.01324
+IT 86, TLOSS 0.00994
+IT 87, TLOSS 0.00873
+IT 88, TLOSS 0.00874
+IT 89, TLOSS 0.01106
+IT 90, Val EER 12.25533
+IT 90, TLOSS 0.01189
+IT 91, TLOSS 0.01018
+IT 92, TLOSS 0.01128
+IT 93, TLOSS 0.00724
+IT 94, TLOSS 0.00827
+IT 95, Val EER 12.74479
+IT 95, TLOSS 0.00988
+IT 96, TLOSS 0.00965
+IT 97, TLOSS 0.00767
+IT 98, TLOSS 0.00835
+IT 99, TLOSS 0.00913
+IT 100, Val EER 12.98391
+IT 100, TLOSS 0.00932

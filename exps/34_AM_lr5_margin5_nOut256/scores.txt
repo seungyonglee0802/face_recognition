@@ -1,0 +1,32 @@
+2022-11-12 12:39:29
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.005, lr_decay=0.9, weight_decay=0, margin=0.5, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/34_AM_lr5_margin5_nOut256', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet34', nOut=256, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, TLOSS 22.26257
+IT 2, TLOSS 20.64169
+IT 3, TLOSS 19.83274
+IT 4, TLOSS 18.76517
+IT 5, Val EER 19.56285
+IT 5, TLOSS 17.44892
+IT 6, TLOSS 16.19844
+IT 7, TLOSS 14.88051
+IT 8, TLOSS 13.75271
+IT 9, TLOSS 12.66563
+IT 10, Val EER 13.01707
+IT 10, TLOSS 11.53109
+IT 11, TLOSS 10.10423
+IT 12, TLOSS 8.88821
+IT 13, TLOSS 7.68295
+IT 14, TLOSS 6.53295
+IT 15, Val EER 14.37582
+IT 15, TLOSS 5.54848
+IT 16, TLOSS 4.46985
+IT 17, TLOSS 3.73063
+IT 18, TLOSS 3.17190
+IT 19, TLOSS 2.70338
+IT 20, Val EER 17.54110
+IT 20, TLOSS 2.31199
+IT 21, TLOSS 1.84857
+IT 22, TLOSS 1.57860
+IT 23, TLOSS 1.42461
+IT 24, TLOSS 1.28259
+IT 25, Val EER 20.57807
+IT 25, TLOSS 1.17509

@@ -1,0 +1,140 @@
+2022-11-11 00:39:38
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='softmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=1230, initial_model='', save_path='exps/exp1', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, TLOSS 6.14016
+IT 2, TLOSS 4.83595
+IT 3, TLOSS 3.75004
+IT 4, TLOSS 2.84107
+IT 5, Val EER 13.77108
+IT 5, TLOSS 2.24625
+IT 6, TLOSS 1.77747
+IT 7, TLOSS 1.48318
+IT 8, TLOSS 1.27330
+IT 9, TLOSS 1.09938
+IT 10, Val EER 12.88093
+IT 10, TLOSS 0.95833
+IT 11, TLOSS 0.78217
+IT 12, TLOSS 0.68796
+IT 13, TLOSS 0.61393
+IT 14, TLOSS 0.54767
+IT 15, Val EER 12.07456
+IT 15, TLOSS 0.47973
+IT 16, TLOSS 0.38395
+IT 17, TLOSS 0.34295
+IT 18, TLOSS 0.31196
+IT 19, TLOSS 0.27982
+IT 20, Val EER 11.72249
+IT 20, TLOSS 0.26486
+IT 21, TLOSS 0.19552
+IT 22, TLOSS 0.16740
+IT 23, TLOSS 0.16848
+IT 24, TLOSS 0.16687
+2022-11-11 02:30:25
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='softmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/exp1', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 21, TLOSS 1.66592
+IT 22, TLOSS 0.43741
+IT 23, TLOSS 0.32262
+IT 24, TLOSS 0.27244
+IT 25, Val EER 11.42888
+IT 25, TLOSS 0.24271
+IT 26, TLOSS 0.17125
+IT 27, TLOSS 0.14923
+IT 28, TLOSS 0.14598
+IT 29, TLOSS 0.15266
+IT 30, Val EER 11.12440
+IT 30, TLOSS 0.15025
+IT 31, TLOSS 0.10539
+IT 32, TLOSS 0.09286
+IT 33, TLOSS 0.09174
+IT 34, TLOSS 0.09742
+IT 35, Val EER 11.83123
+IT 35, TLOSS 0.10025
+IT 36, TLOSS 0.07138
+IT 37, TLOSS 0.05546
+IT 38, TLOSS 0.06755
+IT 39, TLOSS 0.07053
+IT 40, Val EER 10.70269
+IT 40, TLOSS 0.08122
+IT 41, TLOSS 0.05480
+IT 42, TLOSS 0.04396
+IT 43, TLOSS 0.04869
+IT 44, TLOSS 0.05745
+IT 45, Val EER 11.10064
+IT 45, TLOSS 0.05334
+IT 46, TLOSS 0.04465
+IT 47, TLOSS 0.03393
+IT 48, TLOSS 0.03512
+IT 49, TLOSS 0.03851
+2022-11-11 10:51:11
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='softmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/exp1', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 46, TLOSS 0.04802
+IT 47, TLOSS 0.03792
+IT 48, TLOSS 0.04646
+IT 49, TLOSS 0.04548
+2022-11-11 11:13:27
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='softmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2000, initial_model='', save_path='exps/exp1', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ResNet18', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 46, TLOSS 0.04629
+IT 47, TLOSS 0.03988
+IT 48, TLOSS 0.04592
+IT 49, TLOSS 0.04845
+IT 50, Val EER 10.01522
+IT 50, TLOSS 0.03883
+IT 51, TLOSS 0.03004
+IT 52, TLOSS 0.02415
+IT 53, TLOSS 0.03470
+IT 54, TLOSS 0.03453
+IT 55, Val EER 10.33058
+IT 55, TLOSS 0.03436
+IT 56, TLOSS 0.02374
+IT 57, TLOSS 0.01845
+IT 58, TLOSS 0.02176
+IT 59, TLOSS 0.02475
+IT 60, Val EER 10.42845
+IT 60, TLOSS 0.02758
+IT 61, TLOSS 0.01920
+IT 62, TLOSS 0.01827
+IT 63, TLOSS 0.01987
+IT 64, TLOSS 0.02010
+IT 65, Val EER 10.56655
+IT 65, TLOSS 0.02197
+IT 66, TLOSS 0.01681
+IT 67, TLOSS 0.01439
+IT 68, TLOSS 0.01258
+IT 69, TLOSS 0.01504
+IT 70, Val EER 10.91779
+IT 70, TLOSS 0.01860
+IT 71, TLOSS 0.01354
+IT 72, TLOSS 0.01138
+IT 73, TLOSS 0.01288
+IT 74, TLOSS 0.01358
+IT 75, Val EER 10.60844
+IT 75, TLOSS 0.01326
+IT 76, TLOSS 0.01105
+IT 77, TLOSS 0.00853
+IT 78, TLOSS 0.01146
+IT 79, TLOSS 0.01064
+IT 80, Val EER 9.74337
+IT 80, TLOSS 0.01167
+IT 81, TLOSS 0.00792
+IT 82, TLOSS 0.00644
+IT 83, TLOSS 0.00746
+IT 84, TLOSS 0.00848
+IT 85, Val EER 10.31970
+IT 85, TLOSS 0.00942
+IT 86, TLOSS 0.00786
+IT 87, TLOSS 0.00618
+IT 88, TLOSS 0.00687
+IT 89, TLOSS 0.00711
+IT 90, Val EER 10.03697
+IT 90, TLOSS 0.00778
+IT 91, TLOSS 0.00551
+IT 92, TLOSS 0.00511
+IT 93, TLOSS 0.00585
+IT 94, TLOSS 0.00622
+IT 95, Val EER 10.18955
+IT 95, TLOSS 0.00626
+IT 96, TLOSS 0.00543
+IT 97, TLOSS 0.00438
+IT 98, TLOSS 0.00475
+IT 99, TLOSS 0.00554
+IT 100, Val EER 10.22184
+IT 100, TLOSS 0.00568
