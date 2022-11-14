@@ -83,10 +83,9 @@ def main_worker(args):
         [transforms.ToTensor(),
          transforms.Resize(256),
          transforms.RandomResizedCrop([224,224], scale=(0.8, 1)),
-         transforms.RandomHorizontalFlip(),
-         transforms.ColorJitter(brightness=0.5),
-         transforms.ColorJitter(contrast=0.5),
-         transforms.ColorJitter(saturation=0.5),
+        #  transforms.ColorJitter(brightness=0.5),
+        #  transforms.ColorJitter(contrast=0.5),
+        #  transforms.ColorJitter(saturation=0.5),
          transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
     ## Input transformations for evaluation
