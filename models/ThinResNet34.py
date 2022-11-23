@@ -53,7 +53,8 @@ class ResNetSE(nn.Module):
         return nn.Sequential(*layers)
 
     def forward(self, x):
-
+        ## for finetuning
+        # with torch.no_grad():
         x = self.conv1(x)
         x = self.bn1(x)
         x = self.relu(x)
@@ -66,6 +67,7 @@ class ResNetSE(nn.Module):
         
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
+        ##
         x = self.fc(x)
 
         return x

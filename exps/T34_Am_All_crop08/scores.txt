@@ -16,3 +16,130 @@ Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interva
 Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2250, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
 2022-11-14 17:40:44
 Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2250, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-14 17:52:13
+Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2250, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-14 17:53:47
+Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2177, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, TLOSS 9.06155
+IT 2, TLOSS 6.73504
+IT 3, TLOSS 5.28493
+IT 4, TLOSS 4.21098
+IT 5, Val EER 13.82344
+IT 5, TLOSS 3.48039
+IT 6, TLOSS 2.89139
+IT 7, TLOSS 2.51891
+IT 8, TLOSS 2.23188
+IT 9, TLOSS 2.01074
+IT 10, Val EER 11.24725
+IT 10, TLOSS 1.81853
+IT 11, TLOSS 1.61142
+IT 12, TLOSS 1.48652
+IT 13, TLOSS 1.36821
+IT 14, TLOSS 1.27742
+IT 15, Val EER 9.43889
+IT 15, TLOSS 1.19323
+IT 16, TLOSS 1.07535
+IT 17, TLOSS 1.01209
+IT 18, TLOSS 0.96289
+IT 19, TLOSS 0.90390
+IT 20, Val EER 10.40947
+IT 20, TLOSS 0.86181
+IT 21, TLOSS 0.78032
+IT 22, TLOSS 0.73992
+IT 23, TLOSS 0.70843
+IT 24, TLOSS 0.67497
+IT 25, Val EER 9.54027
+IT 25, TLOSS 0.64434
+IT 26, TLOSS 0.59448
+IT 27, TLOSS 0.56340
+IT 28, TLOSS 0.55070
+IT 29, TLOSS 0.52698
+IT 30, Val EER 10.04785
+IT 30, TLOSS 0.51031
+IT 31, TLOSS 0.47090
+IT 32, TLOSS 0.45351
+IT 33, TLOSS 0.43599
+IT 34, TLOSS 0.42422
+IT 35, Val EER 10.30883
+IT 35, TLOSS 0.40875
+IT 36, TLOSS 0.38009
+IT 37, TLOSS 0.36783
+IT 38, TLOSS 0.35373
+IT 39, TLOSS 0.34762
+IT 40, Val EER 10.21096
+IT 40, TLOSS 0.34046
+IT 41, TLOSS 0.31308
+IT 42, TLOSS 0.30306
+IT 43, TLOSS 0.28989
+IT 44, TLOSS 0.28570
+IT 45, Val EER 10.48282
+IT 45, TLOSS 0.28231
+IT 46, TLOSS 0.25897
+IT 47, TLOSS 0.25087
+IT 48, TLOSS 0.24624
+IT 49, TLOSS 0.24397
+IT 50, Val EER 11.02733
+IT 50, TLOSS 0.23660
+IT 51, TLOSS 0.21946
+IT 52, TLOSS 0.21544
+IT 53, TLOSS 0.21209
+IT 54, TLOSS 0.20704
+IT 55, Val EER 10.54561
+IT 55, TLOSS 0.20173
+2022-11-15 01:07:00
+Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=2177, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-15 01:07:26
+Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=4027, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 56, TLOSS 3.20525
+IT 57, TLOSS 1.35507
+IT 58, TLOSS 1.16457
+IT 59, TLOSS 1.06318
+IT 60, Val EER 9.51501
+IT 60, TLOSS 0.99415
+IT 61, TLOSS 0.92447
+IT 62, TLOSS 0.88521
+IT 63, TLOSS 0.85275
+IT 64, TLOSS 0.82631
+IT 65, Val EER 9.08003
+IT 65, TLOSS 0.80188
+IT 66, TLOSS 0.76036
+IT 67, TLOSS 0.74243
+IT 68, TLOSS 0.71737
+IT 69, TLOSS 0.70045
+IT 70, Val EER 9.80207
+IT 70, TLOSS 0.68500
+IT 71, TLOSS 0.65625
+IT 72, TLOSS 0.64210
+IT 73, TLOSS 0.63102
+IT 74, TLOSS 0.61467
+IT 75, Val EER 9.48790
+IT 75, TLOSS 0.60204
+IT 76, TLOSS 0.58165
+IT 77, TLOSS 0.56871
+IT 78, TLOSS 0.56280
+IT 79, TLOSS 0.54894
+IT 80, Val EER 9.35189
+IT 80, TLOSS 0.54373
+IT 81, TLOSS 0.52417
+IT 82, TLOSS 0.51501
+IT 83, TLOSS 0.50865
+IT 84, TLOSS 0.50390
+IT 85, Val EER 9.86491
+IT 85, TLOSS 0.49248
+IT 86, TLOSS 0.48285
+IT 87, TLOSS 0.47248
+IT 88, TLOSS 0.46445
+IT 89, TLOSS 0.46055
+IT 90, Val EER 9.65637
+IT 90, TLOSS 0.45705
+IT 91, TLOSS 0.44249
+IT 92, TLOSS 0.43716
+IT 93, TLOSS 0.43379
+IT 94, TLOSS 0.42836
+IT 95, Val EER 9.64550
+IT 95, TLOSS 0.42374
+IT 96, TLOSS 0.41276
+IT 97, TLOSS 0.40648
+IT 98, TLOSS 0.40172
+2022-11-15 12:37:39
+Namespace(batch_size=200, max_img_per_cls=100, nDataLoaderThread=5, test_interval=5, max_epoch=100, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.9, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=4027, initial_model='', save_path='exps/T34_Am_All_crop08', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)

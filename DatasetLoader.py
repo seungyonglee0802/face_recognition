@@ -22,9 +22,13 @@ class meta_loader(Dataset):
         
         ## Read Training Files
         # data/train/id10051/B00000000.jpg
+        
         files_ee488b = glob.glob('%s/id*/*.%s'%(train_path,train_ext))
-        files_vggface2 = glob.glob(('%s/n000*/*.%s'%(train_path,train_ext)))
-        files = files_ee488b + files_vggface2
+        # files_vggface2_1 = glob.glob(('%s/n000*/*.%s'%(train_path,train_ext)))
+        # files_vggface2_2 = glob.glob(('%s/n001*/*.%s'%(train_path,train_ext)))
+        # files_vggface2_3 = glob.glob(('%s/n002*/*.%s'%(train_path,train_ext)))
+        # files_vggface2 = glob.glob(('%s/n*/*.%s'%(train_path,train_ext)))
+        files = files_ee488b
 
         ## Make a mapping from Class Name to Class Number
         dictkeys = list(set([x.split('/')[-2] for x in files]))
@@ -151,3 +155,8 @@ def get_data_loader(batch_size, max_img_per_cls, nDataLoaderThread, nPerClass, t
     return train_loader
 
 
+def get_concat_h(im1, im2):
+    dst = Image.new('RGB', (im1.width + im2.width, im1.height))
+    dst.paste(im1, (0, 0))
+    dst.paste(im2, (im1.width, 0))
+    return dst

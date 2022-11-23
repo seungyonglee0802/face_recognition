@@ -1,0 +1,50 @@
+2022-11-20 23:50:51
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=25, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.0005, lr_decay=0.95, weight_decay=0, margin=0.4, scale=30, nPerClass=1, nClasses=1230, initial_model='exps/T34_Am_VGGFace2_crop08/model000000070.model', save_path='exps/transfer_margin04_decay95', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, Val EER 5.90474
+IT 1, TLOSS 12.60333
+IT 2, Val EER 5.37229
+IT 2, TLOSS 6.70994
+IT 3, Val EER 5.14190
+IT 3, TLOSS 5.04886
+IT 4, Val EER 5.07907
+IT 4, TLOSS 4.36631
+IT 5, Val EER 5.48064
+IT 5, TLOSS 3.97863
+IT 6, Val EER 5.23615
+IT 6, TLOSS 3.69044
+IT 7, Val EER 5.21966
+IT 7, TLOSS 3.47302
+IT 8, Val EER 5.29578
+IT 8, TLOSS 3.28413
+IT 9, Val EER 5.27403
+IT 9, TLOSS 3.12622
+IT 10, Val EER 5.13267
+IT 10, TLOSS 2.98271
+IT 11, Val EER 5.27804
+IT 11, TLOSS 2.86646
+IT 12, Val EER 5.26757
+IT 12, TLOSS 2.73509
+IT 13, Val EER 5.45890
+IT 13, TLOSS 2.63934
+IT 14, Val EER 5.42627
+IT 14, TLOSS 2.55402
+IT 15, Val EER 5.57126
+IT 15, TLOSS 2.46548
+IT 16, Val EER 5.47701
+IT 16, TLOSS 2.37263
+IT 17, Val EER 5.51327
+IT 17, TLOSS 2.30565
+IT 18, Val EER 5.64376
+IT 18, TLOSS 2.24327
+IT 19, Val EER 5.41540
+IT 19, TLOSS 2.17307
+IT 20, Val EER 5.57851
+IT 20, TLOSS 2.12264
+IT 21, Val EER 5.61114
+IT 21, TLOSS 2.05708
+IT 22, Val EER 5.78071
+IT 22, TLOSS 2.00161
+IT 23, Val EER 5.69813
+IT 23, TLOSS 1.96507
+IT 24, Val EER 5.76338
+IT 24, TLOSS 1.91596

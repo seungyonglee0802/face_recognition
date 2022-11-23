@@ -1,0 +1,54 @@
+2022-11-20 12:59:14
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=50, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.0005, lr_decay=0.98, weight_decay=0, margin=0.3, scale=30, nPerClass=1, nClasses=1230, initial_model='exps/T34_Am_VGGFace2_crop08/model000000070.model', save_path='exps/transfer_margin03', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, Val EER 5.55032
+IT 1, TLOSS 9.68551
+IT 2, Val EER 5.31993
+IT 2, TLOSS 4.19922
+IT 3, Val EER 5.24662
+IT 3, TLOSS 2.93526
+IT 4, Val EER 5.14354
+IT 4, TLOSS 2.43087
+IT 5, Val EER 4.98482
+IT 5, TLOSS 2.14950
+IT 6, Val EER 5.00576
+IT 6, TLOSS 1.96537
+IT 7, Val EER 4.88009
+IT 7, TLOSS 1.81577
+IT 8, Val EER 5.13267
+IT 8, TLOSS 1.68642
+IT 9, Val EER 4.98482
+IT 9, TLOSS 1.57797
+IT 10, Val EER 4.79556
+IT 10, TLOSS 1.48627
+IT 11, Val EER 5.24662
+IT 11, TLOSS 1.39875
+IT 12, Val EER 5.19791
+IT 12, TLOSS 1.32030
+IT 13, Val EER 5.12096
+IT 13, TLOSS 1.25335
+IT 14, Val EER 5.18704
+IT 14, TLOSS 1.18723
+IT 15, Val EER 5.15237
+IT 15, TLOSS 1.12528
+IT 16, Val EER 5.43715
+IT 16, TLOSS 1.06874
+IT 17, Val EER 5.25228
+IT 17, TLOSS 1.01302
+IT 18, Val EER 5.24662
+IT 18, TLOSS 0.96572
+IT 19, Val EER 5.60268
+IT 19, TLOSS 0.92006
+IT 20, Val EER 5.40452
+IT 20, TLOSS 0.87088
+IT 21, Val EER 5.37190
+IT 21, TLOSS 0.82817
+IT 22, Val EER 5.47701
+IT 22, TLOSS 0.79123
+IT 23, Val EER 5.66551
+IT 23, TLOSS 0.75810
+IT 24, Val EER 5.45607
+IT 24, TLOSS 0.71904
+IT 25, Val EER 5.75977
+IT 25, TLOSS 0.68667
+2022-11-20 14:29:43
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=25, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.0005, lr_decay=0.95, weight_decay=0, margin=0.1, scale=30, nPerClass=1, nClasses=1230, initial_model='exps/T34_Am_VGGFace2_crop08/model000000070.model', save_path='exps/transfer_margin03', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
