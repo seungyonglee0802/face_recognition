@@ -2,6 +2,24 @@
 
 This repository contains the framework for training deep embeddings for face recognition. The trainer is intended for the face recognition exercise of the [EE488B Deep Learning for Visual Understanding](https://mm.kaist.ac.kr/teaching/) course. This is an adaptation of the [speaker recognition model trainer](https://github.com/clovaai/voxceleb_trainer).
 
+## GOALs
+
+1. Train CNN model that can make appropriate embedding vector(nOut = 512) for korean star's faces. Evaluated by EER(equal error rate).
+2. Get the most similar the korean star's face with a face with a random person(not famous)
+3. Draw "KSTAR-FaceMap" which put faces nearby when they are similar each other, and vice versa.
+
+### Strategy
+
+(Pretrain)
+- DataSet: VGGFace2(8631 classes, max_images_per_class = 100 to overcome class imbalance)
+- Model: ThinResNet34(~5M param)
+- Loss: AMsoftmax(m=0.1, s=30)
+- lr/schedule: start with lr = 0.001 make x0.9 after every 5 steps 
+- Epoch: 70
+- Batch Size 200
+- Validation EER: 
+- Data Augmentation: random crop 0.8
+
 ### Dependencies
 ```
 pip install -r requirements.txt
