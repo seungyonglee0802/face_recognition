@@ -17,7 +17,7 @@ This repository contains the framework for training deep embeddings for face rec
 - lr/schedule: start with lr = 0.001 make x0.9 after every 5 steps 
 - Epoch: 70
 - Batch Size 200
-- Validation EER: 
+- Validation EER: 8.89517
 - Data Augmentation: random crop 0.8
 
 ### Dependencies
