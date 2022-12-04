@@ -6,6 +6,8 @@
 *.sh
 *.csv
 data/
+exps/
+ignore/
 core.*
 
 # NSML related

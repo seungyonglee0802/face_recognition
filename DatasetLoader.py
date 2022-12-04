@@ -23,12 +23,7 @@ class meta_loader(Dataset):
         ## Read Training Files
         # data/train/id10051/B00000000.jpg
         
-        files_ee488b = glob.glob('%s/id*/*.%s'%(train_path,train_ext))
-        # files_vggface2_1 = glob.glob(('%s/n000*/*.%s'%(train_path,train_ext)))
-        # files_vggface2_2 = glob.glob(('%s/n001*/*.%s'%(train_path,train_ext)))
-        # files_vggface2_3 = glob.glob(('%s/n002*/*.%s'%(train_path,train_ext)))
-        # files_vggface2 = glob.glob(('%s/n*/*.%s'%(train_path,train_ext)))
-        files = files_ee488b
+        files = glob.glob('%s/*/*.%s'%(train_path,train_ext))
 
         ## Make a mapping from Class Name to Class Number
         dictkeys = list(set([x.split('/')[-2] for x in files]))

@@ -104,3 +104,21 @@ IT 50, Val EER 5.87496
 IT 50, TLOSS 0.02365
 2022-11-20 12:00:13
 Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=50, trainfunc='amsoftmax', optimizer='adam', scheduler='steplr', lr=0.0005, lr_decay=0.98, weight_decay=0, margin=0.2, scale=30, nPerClass=1, nClasses=1230, initial_model='exps/T34_Am_VGGFace2_crop08/model000000070.model', save_path='exps/transfer_vanilla', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+2022-11-28 16:23:02
+Namespace(batch_size=200, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=50, trainfunc='angproto', optimizer='adam', scheduler='steplr', lr=0.0005, lr_decay=0.98, weight_decay=0, margin=0.1, scale=30, nPerClass=2, nClasses=9500, initial_model='exps/T34_Am_VGGFace2_crop08/model000000080.model', save_path='exps/transfer_vanilla', train_path='data/train', train_ext='jpg', test_path='data/val', test_list='data/val_pairs.csv', model='ThinResNet34', nOut=512, eval=False, output='', mixedprec=False, gpu=0)
+IT 1, Val EER 5.58174
+IT 1, TLOSS 2.03276
+IT 2, Val EER 5.06742
+IT 2, TLOSS 1.63622
+IT 3, Val EER 4.71254
+IT 3, TLOSS 1.50302
+IT 4, Val EER 4.74395
+IT 4, TLOSS 1.40800
+IT 5, Val EER 4.62157
+IT 5, TLOSS 1.32557
+IT 6, Val EER 4.40409
+IT 6, TLOSS 1.26313
+IT 7, Val EER 4.51283
+IT 7, TLOSS 1.21524
+IT 8, Val EER 4.50309
+IT 8, TLOSS 1.16899
