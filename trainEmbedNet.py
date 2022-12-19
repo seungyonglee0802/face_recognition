@@ -60,7 +60,8 @@ parser.add_argument('--nOut',           type=int,   default=512,    help='Embedd
 
 ## For test only
 parser.add_argument('--eval',           dest='eval', action='store_true',   help='Eval only')
-parser.add_argument('--output',         type=str,   default="",     help='Save a log of output to this file name');
+parser.add_argument('--output',         type=str,   default="",     help='Save a log of output to this file name')
+## parser.add_argument('--tSNE',           dest='tSNE', action='draw_tSNE_true',   help='Draw and save tSNE graph')
 
 ## Training
 parser.add_argument('--mixedprec',      dest='mixedprec',   action='store_true', help='Enable mixed precision training')
@@ -125,7 +126,7 @@ def main_worker(args):
     ## Evaluation code 
     if args.eval == True:
 
-        sc, lab, trials = trainer.evaluateFromList(transform=test_transform, **vars(args))
+        sc, lab, trials, feats = trainer.evaluateFromList(transform=test_transform, **vars(args))
         result = tuneThresholdfromScore(sc, lab, [1, 0.1]);
 
         print('EER {:.4f}'.format(result[1]))
@@ -134,13 +135,10 @@ def main_worker(args):
             with open(args.output,'w') as f:
                 for ii in range(len(sc)):
                     f.write('{:4f},{:d},{}\n'.format(sc[ii],lab[ii],trials[ii]))
-                    # if abs(sc[ii]-lab[ii]) > 0.2: #if wrong
-                    #     error = trials[ii].split(",")
-                    #     error_img0 = Image.open('data/val/{}'.format(error[0]))
-                    #     error_img1 = Image.open('data/val/{}'.format(error[1]))
-                    #     get_concat_h(error_img0, error_img1).save(args.save_path + "/error_img_{:d}_{}.jpg".format(lab[ii], trials[ii]))
+                    
+        drawTSNE(feats)
 
-        quit();
+        quit()
 
 
     ## Write args to scorefile for training

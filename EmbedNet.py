@@ -168,7 +168,7 @@ class ModelTrainer(object):
             all_labels.append(int(data[0]));
             all_trials.append(data[1] + "," + data[2])
 
-        return (all_scores, all_labels, all_trials)
+        return (all_scores, all_labels, all_trials, feats)
 
 
     ## ===== ===== ===== ===== ===== ===== ===== =====
