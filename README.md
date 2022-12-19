@@ -4,6 +4,9 @@ This repository contains the framework for training deep embeddings for face rec
 
 [20180467_report.pdf](https://github.com/seungyonglee0802/face_recognition/files/10148154/20180467_report.pdf)
 
+[tSNE_1](https://user-images.githubusercontent.com/74466088/208445283-528f83ad-783b-46ca-a1e7-debce16a0a4e.jpg)
+[tSNE_2](https://user-images.githubusercontent.com/74466088/208445306-e7fccb4a-a8e1-476e-a27c-d8314b5e4cf5.jpg)
+
 ## GOALs
 
 1. Train CNN model that can make appropriate embedding vector(nOut = 512) for korean star's faces. Evaluated by EER(equal error rate).
