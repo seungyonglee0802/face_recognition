@@ -2,23 +2,14 @@
 
 This repository contains the framework for training deep embeddings for face recognition. The trainer is intended for the face recognition exercise of the [EE488B Deep Learning for Visual Understanding](https://mm.kaist.ac.kr/teaching/) course. This is an adaptation of the [speaker recognition model trainer](https://github.com/clovaai/voxceleb_trainer).
 
+[20180467_report.pdf](https://github.com/seungyonglee0802/face_recognition/files/10148154/20180467_report.pdf)
+
 ## GOALs
 
 1. Train CNN model that can make appropriate embedding vector(nOut = 512) for korean star's faces. Evaluated by EER(equal error rate).
 2. Get the most similar the korean star's face with a face with a random person(not famous)
 3. Draw "KSTAR-FaceMap" which put faces nearby when they are similar each other, and vice versa.
 
-### Strategy
-
-(Pretrain)
-- DataSet: VGGFace2(8631 classes, max_images_per_class = 100 to overcome class imbalance)
-- Model: ThinResNet34(~5M param)
-- Loss: AMsoftmax(m=0.1, s=30)
-- lr/schedule: start with lr = 0.001 make x0.9 after every 5 steps 
-- Epoch: 70
-- Batch Size 200
-- Validation EER: 8.89517
-- Data Augmentation: random crop 0.8
 
 ### Dependencies
 ```
@@ -27,14 +18,31 @@ pip install -r requirements.txt
 
 ### Training examples
 
-- Softmax:
+- Pretrain:
 ```
-python ./trainEmbedNet.py --model ResNet18 --trainfunc softmax --save_path exps/exp1 --nClasses 2000 --batch_size 200 --gpu 8
+$ python ./trainEmbedNet.py --model ThinResNet50_V2 --train_path data/train/VGGFace2 
+--trainfunc amsoftmax --scale 30 --margin 0.1 --save_path exps/T50V2 
+--max_epoch 60 --nPerClass 8631 --max_img_per_cls 200 --batch_size 200 --lr 0.001 
+--scheduler cosineRestartlr --gpu 0
 ```
 
 GPU ID must be specified using `--gpu` flag.
 
 Use `--mixedprec` flag to enable mixed precision training. This is recommended for Tesla V100, GeForce RTX 20 series or later models.
+
+- Fine-tuning:
+```
+$ python ./trainEmbedNet.py --model ThinResNet50_V2 --initial_model exps/T50V2/model000000050.model 
+--trainfunc angproto --nPerClass 2 --save_path exps/transfer_T50V2 
+--max_epoch 50 --test_interval 1 --batch_size 250 --lr 0.0005 --scheduler cosineRestartlr --gpu 0
+```
+
+- Evaluation:
+```
+$ python ./trainEmbedNet.py --model ThinResNet50_V2 --initial_model exps/transfer_T50V2/model000000020.model
+--trainfunc angproto --gpu 0 
+--eval --test_path data/test_shuffle --test_list data/test_blind.csv --output output.csv
+```
 
 ### Implemented loss functions
 ```
@@ -46,7 +54,7 @@ For softmax-based losses, `nPerClass` should be 1, and `nClasses` must be specif
 
 ### Implemented models
 ```
-ResNet18
+ThinResNet50_V2
 ```
 
 ### Adding new models and loss functions
