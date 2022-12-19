@@ -2,10 +2,10 @@
 
 This repository contains the framework for training deep embeddings for face recognition. The trainer is intended for the face recognition exercise of the [EE488B Deep Learning for Visual Understanding](https://mm.kaist.ac.kr/teaching/) course. This is an adaptation of the [speaker recognition model trainer](https://github.com/clovaai/voxceleb_trainer).
 
-[20180467_report.pdf](https://github.com/seungyonglee0802/face_recognition/files/10148154/20180467_report.pdf)
+![20180467_report.pdf](https://github.com/seungyonglee0802/face_recognition/files/10148154/20180467_report.pdf)
 
-[tSNE_1](https://user-images.githubusercontent.com/74466088/208445283-528f83ad-783b-46ca-a1e7-debce16a0a4e.jpg)
-[tSNE_2](https://user-images.githubusercontent.com/74466088/208445306-e7fccb4a-a8e1-476e-a27c-d8314b5e4cf5.jpg)
+![tSNE_1](https://user-images.githubusercontent.com/74466088/208445283-528f83ad-783b-46ca-a1e7-debce16a0a4e.jpg)
+![tSNE_2](https://user-images.githubusercontent.com/74466088/208445306-e7fccb4a-a8e1-476e-a27c-d8314b5e4cf5.jpg)
 
 ## GOALs
 
